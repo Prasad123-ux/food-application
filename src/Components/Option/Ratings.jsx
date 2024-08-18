@@ -5,7 +5,7 @@ import {Rating} from 'react-simple-star-rating';
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { FcRating } from 'react-icons/fc'
-import { Link } from 'react-router-dom';
+
 
 
 
@@ -42,6 +42,7 @@ const handleSubmitReview = async () =>{
   console.log(data)
   }catch(err){
     console.log(err)
+    setRate("")
 
   }
 
@@ -99,6 +100,10 @@ console.log(review)
 
         </div>
       </div>
+
+       
+
+
       
     
       <div className='help col-lg-3 col-md-4 me-1  mt-1 ms-lg-5  ms-0 shadow rounded mt-5  p-4 p-sm-2'>

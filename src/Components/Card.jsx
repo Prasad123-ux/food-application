@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react"
+import {  useState } from "react"
 import { useNavigate } from "react-router-dom"
 import PropTypes from 'prop-types';
 
 
-import { Link } from "react-router-dom"
+
 import { FaRupeeSign } from "react-icons/fa";
 import { FcRating } from 'react-icons/fc'
 import { FaLocationDot } from "react-icons/fa6";
@@ -14,14 +14,14 @@ import { RiSaveLine } from "react-icons/ri";
 
 
 
-export default function Card({ name, address, price,  id,img, rating, deliveryTime }) {
+export default function Card({ name, address, price, img, id, rating, deliveryTime }) {
   
   const options={'full':250, half:"420"}
     let priceOptions= Object.keys(options)
-   const [size, setSize]= useState(priceOptions[0])
+    const [size, setSize]= useState(priceOptions[0])
   const [qty, setQty]= useState()
 // const  [cart, setCart]= useState([])
-const [part, setPart]= useState()
+//  const [part, setPart]= useState()
 const [cartSave, setCartSave]= useState(true)
 const navigate=useNavigate()
 console.log(name)
@@ -35,14 +35,14 @@ console.log(img)
 
 
 
- // useEffect(()=>{
-//   console.log(cart)
+//    useEffect(()=>{
+//       console.log(cart)
 
-// }, [cart])
+//        }, [cart])
 
-// console.log(id)
+//         console.log(id)
 
-//     const addToCart=(id)=>{
+//        const addToCart=(id)=>{
 //         const token= localStorage.getItem('token')
 //         // console.log(token)
 //         if(token===null){
@@ -78,7 +78,7 @@ console.log(img)
 //        })
                  
 //       }
-// }
+//     }            
 
 
 
@@ -97,7 +97,7 @@ setCartSave(false)
     alert('please login first')
   }else{
 
-setPart(id)
+// setPart(id)
 
 const data={id, size, qty, token}
 console.log(data)
@@ -117,7 +117,9 @@ console.log(data)
      
    }
    else{
+    setSize("")
      throw new Error(response.statusText)
+     
    }
 
  }).then((data)=>{
@@ -137,7 +139,7 @@ console.log(data)
 const token = localStorage.getItem('token')
 const addToFavourites=()=>{
 
-setPart(id)
+// setPart(id)
 
 const data={id, size, qty, token}
 console.log(data)
@@ -268,7 +270,9 @@ Card.propTypes={
   type:PropTypes.string.isRequired,
   category:PropTypes.string.isRequired,
   rating:PropTypes.number.isRequired,
-  deliveryTime:PropTypes.number.isRequired
+  deliveryTime:PropTypes.number.isRequired,
+  img:PropTypes.string.isRequired,
+  id:PropTypes.string.isRequired
 
 
 };
