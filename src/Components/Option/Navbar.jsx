@@ -1,16 +1,13 @@
 
 import { Link, useNavigate } from 'react-router-dom'
-import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import { SiSimpleanalytics } from "react-icons/si";
 import { LuUserCheck } from "react-icons/lu";
-import Footer from './Footer';
-import Filters from '../Screens/Filters';
 
 
 export default function Navbar() {
   const [item, setItem]= useState()
-  const [show , setShow]= useState(true)
+  
   // console.log(cartLength)
   const navigate= useNavigate()
   const handleLogOut=()=>{

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import { FaRupeeSign } from "react-icons/fa";
 import { FcRating } from 'react-icons/fc'
 import { FaLocationDot } from "react-icons/fa6";
@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom"
 
 export default function OwnerProducts() {
     const [ownerProduct, setOwnerProduct]= useState([])
-    const [ownerReview, setOwnerReview]= useState()
+  
     const navigate = useNavigate()
 
 const token= localStorage.getItem('token')

@@ -14,7 +14,7 @@ export default function Owner() {
   useEffect(()=>{
     const token = localStorage.getItem('token')
     setItem(token)
-  })
+  },[])
 
   // Array of carousel items
   const carouselItems = [

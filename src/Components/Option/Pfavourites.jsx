@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import { FaRupeeSign } from "react-icons/fa";
@@ -11,7 +11,7 @@ import { MdDeliveryDining } from "react-icons/md";
 export default function Pfavourites() {
   const [favourites, setFavourites]= useState([1,2])
 const navigate= useNavigate()
-const [qty, setQty]= useState(1)
+
   const getFavourites=()=>{
     //calling a function for get userCart detail from database
 const token= localStorage.getItem('token')

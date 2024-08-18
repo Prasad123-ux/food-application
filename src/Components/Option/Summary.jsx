@@ -9,7 +9,7 @@ import { MdAddAlert } from "react-icons/md";
 import { TbJewishStarFilled } from "react-icons/tb";
 import { FaRupeeSign } from "react-icons/fa";
 import { useParams} from "react-router-dom";
-import { useEffect, useReducer } from "react";
+import { useEffect} from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 // import { response } from "express";

@@ -9,8 +9,8 @@ import { FcRating } from 'react-icons/fc'
 import { FaLocationDot } from "react-icons/fa6";
 import { MdDeliveryDining } from "react-icons/md";
 import { RiSaveLine } from "react-icons/ri";
-
- import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/card.css'
+import "../Styles/card.css"
+ 
 
 
 

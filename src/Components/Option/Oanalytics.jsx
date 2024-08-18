@@ -1,10 +1,10 @@
 // import  from 'react'
 import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/Oanalytics.css'
+import "../../Styles/Oanalytics.css"
 import { LuUsers } from "react-icons/lu";
 import { IoStatsChartSharp } from "react-icons/io5";
 import { FaRupeeSign } from "react-icons/fa";
 import { FaLuggageCart } from "react-icons/fa";
-import { MdDelete } from "react-icons/md";
 import { MdOutlinePreview } from "react-icons/md";
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -18,7 +18,6 @@ import { LuRefreshCcw } from "react-icons/lu";
 
 
 export default function Oanalytics() {
-  const [analytical, setAnalytical]= useState([1,2,3,4,5,6])
 const [analytic, setAnalytic]= useState([])
 const [revenue, setRevenue]= useState()
 const [customer, setCustomer]= useState(0)

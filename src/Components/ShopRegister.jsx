@@ -1,8 +1,6 @@
-// import React from 'react'
-import axios from 'axios'
+
 
 import { useState } from "react";
-import Navbar from "./Option/Navbar";
 import Carousel from './Option/Carousel';
 import Footer from './Option/Footer';
 

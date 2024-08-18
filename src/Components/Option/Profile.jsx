@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/profile.css'
+import  { useEffect, useState } from 'react'
+import "../../Styles/profile.css"
 import { FaPersonWalkingLuggage } from "react-icons/fa6";
-import { IoSettingsSharp } from "react-icons/io5";
 import { MdPayments } from "react-icons/md";
 import { BiSolidOffer } from "react-icons/bi";
 import { IoMdSettings } from "react-icons/io";

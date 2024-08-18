@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import  {  useState } from 'react'
 // // import Home from './Home'
-import "C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/card.css"
+import "../../Styles/card.css"
 
 export default function Filters() {
-  const [filterItem, setFilterItem] = useState({})
+  
   const [category, setCategory]= useState([])
   const [price , setPrice]= useState([])
   const [type, setType]= useState([])

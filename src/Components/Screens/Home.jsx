@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../Card";
 import Footer from "../Option/Footer";
-import ScrollTop from "../Option/ScrollTop";
+
 
 
 
@@ -9,7 +9,7 @@ export default function Home() {
 const [foodCat, setFoodCat]= useState([]) 
 const [foodItems, setFoodItems]= useState([])
 const [search, setSearch]= useState()
-const [disabledValue, setDisabledValue]= useState()
+
 
 const [valueLength, setValueLength]= useState(0)
 const [category, setCategory]= useState([])

@@ -1,5 +1,5 @@
 // import React from 'react'
- import React, { useEffect, useState } from 'react'
+ import  { useEffect, useState } from 'react'
 // import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/profile.css'
 import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/ownerProfile.css'
 

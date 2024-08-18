@@ -1,10 +1,9 @@
 // import React from 'react'
 import { useEffect, useState } from "react"
 // import Navbar from "./Option/Navbar"
-import Carousel from "./Option/Carousel"
 // import Card from "./Card"
 import GetOrder from "./Option/GetOrder"
-import { Link } from "react-router-dom"
+
 import Footer from "./Option/Footer"
 import { useNavigate } from "react-router-dom"
 import { MdOutlineStarRate } from "react-icons/md";
@@ -140,7 +139,7 @@ console.log(products)
         }):<div className="mx-auto w-100 text-center bg-white mb-5 ">
           <img src="https://b.zmtcdn.com/webFrontend/96a9a259cfa3dd8e260d65d1f135ab941581004545.png" className="w-25 d-block mx-auto mt-5 mb-3"  alt="Nothing order here" />
           <span className="fs-5 text-secondary fw-bold mt-5"> Nothing here yet!</span><br></br>
-          <span className="">You haven't placed any order yet.</span>
+          <span className="">You havent placed any order yet.</span>
            </div>}
         <div className="mt-5">
             <h3>Recommended</h3>

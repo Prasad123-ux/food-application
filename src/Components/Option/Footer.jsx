@@ -1,6 +1,6 @@
 
  import { Link } from 'react-router-dom'
-import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/footer.css'
+ import "../../Styles/footer.css"
 import { GiIndiaGate } from "react-icons/gi";
 import { FaInstagramSquare } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";

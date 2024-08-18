@@ -2,6 +2,7 @@
 import { Link, useNavigate } from "react-router-dom"
 import { useState } from "react"
 import Footer from "../Option/Footer"
+import "../../Styles/login.css"
 import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/login.css'
 
 export default function Login() {
