@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 
 export default function ScrollTop() {
    const getUp=()=>{

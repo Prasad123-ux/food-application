@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 {/* <import>PropType</import> */}
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';

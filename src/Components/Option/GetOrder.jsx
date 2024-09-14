@@ -1,11 +1,9 @@
-// import React from 'react'
-// import FaBeer from 'react-icons'
-// import { FaBeer } from "react-icons/fa";>
-// import { set } from "mongoose";
+
 import { useEffect, useState } from "react";
 import { FcRating } from "react-icons/fc";
 import { useNavigate } from "react-router-dom";
-import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/card.css'
+import "../../Styles/card.css"
+
 
 
 export default function GetOrder() {

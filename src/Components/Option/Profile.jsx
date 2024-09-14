@@ -6,13 +6,15 @@ import { BiSolidOffer } from "react-icons/bi";
 import { IoMdSettings } from "react-icons/io";
 import { FaAddressBook } from "react-icons/fa";
 import Porders from './Porders';
-import Ppayments from './Ppayments';
 import Poffers from './Poffers';
 import Pfavourites from './Pfavourites';
 import Paddress from './Paddress';
 import Psettings from './Psettings';
 import Footer from './Footer';
+import Ppayment from './Ppayment';
 export default function Profile() {
+
+  
   const [activeComponents, setActiveComponents]= useState('orders')
   const [userDetails, setUserDetail]= useState({name:"",lastName:"",mobile_no:"",email:"",location:""})
   const [changeDetail, setChangeDetail]= useState({first_name:"", last_name:"", mobile_number:"", location:""})
@@ -217,7 +219,7 @@ fetchProfileDetail()
           {activeComponents==="orders" && <Porders/>}
           {activeComponents==="foodies" && <Poffers/>}
           {activeComponents==="favourites" && <Pfavourites/>}
-          {activeComponents==="payments" && <Ppayments/>}
+          {activeComponents==="payments" && <Ppayment/>}
           {activeComponents==="address" && <Paddress location={userDetails.location}/>}
           {activeComponents==="settings" && <Psettings/>}
           </div>

@@ -1,10 +1,11 @@
 import React from 'react'
 
-export default function Ppayments() {
+function Ppayment() {
   return (
     <div>
-      <h2>Payments</h2>
       
     </div>
   )
 }
+
+export default Ppayment

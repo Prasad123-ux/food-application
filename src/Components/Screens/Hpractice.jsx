@@ -8,7 +8,7 @@ export default function Home() {
      const [search, setSearch] = useState("");
      const [searchValue, setSearchValue] = useState(true);
     //  const [catValue, setCatValue]= useState(false)
-    const [filteredValue,setFilteredValue]= useState(true)
+     const [filteredValue,setFilteredValue]= useState(true)
 
     const loadData = async () => {
         try {

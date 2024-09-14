@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+
 import PropTypes from 'prop-types';
 
 export default function OdocumentDetail({pan, gstin, accountNumber, branchName, ifsc, bankName}) {

@@ -1,9 +1,7 @@
 // import React from 'react'
 
 import { useEffect, useState } from "react"
-import Navbar from "./Option/Navbar"
-import { Link } from "react-router-dom"
-import Modals from "./Option/Modals"
+
 import Carousel from "./Option/Carousel"
 import GetOrder from "./Option/GetOrder"
 import { useNavigate } from "react-router-dom"
@@ -12,13 +10,13 @@ import Footer from "./Option/Footer"
 export default function Cart() {
    const [cartItem, setCartItems]= useState([])
    
-   const [userDetail, setUserDetail]= useState({name:"", email:"", location:"", mobile_no:""})
+  //  const [userDetail, setUserDetail]= useState({name:"", email:"", location:"", mobile_no:""})
    const navigate= useNavigate()
   
    
 
 
-const cartLength= cartItem.length
+// const cartLength= cartItem.length
 
   const getCart=()=>{
                                                //calling a function for get userCart detail from database

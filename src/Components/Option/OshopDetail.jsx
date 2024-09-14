@@ -1,4 +1,4 @@
-import React, { cloneElement, useState } from 'react'
+import  {  useState } from 'react'
 
 export default function OshopDetail({name, shopName, address, state, email, city, zip, contact_no, Phone_no, mobile_no}) {
   const [productData, setProductData]= useState({shopName:"", ownerName:"", email:"", mobileNumber:"", contactNumber:"", phoneNumber:"",location:"", city:"", state:"", zipPin:""})
@@ -162,3 +162,4 @@ const onchange=(e)=>{
     </div>
   )
 }
+
