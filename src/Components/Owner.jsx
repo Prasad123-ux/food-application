@@ -126,7 +126,7 @@ export default function Owner() {
 
 
 
-     <div className="  mx-auto  row justify-content-end p-5 pt-4 container mt-2  " style={{backgroundColor:"#ffffff", "object-fit":"cover" }}>
+     <div className="  mx-auto  row justify-content-end p-5 pt-4 container mt-2  " style={{backgroundColor:"#ffffff", objectFit:"cover" }}>
       <div className="col-12 mx-auto text-center  ">
         <h3>Get started with online ordering</h3>
         <h6 >Please keep the documents ready for a smooth signup</h6>
