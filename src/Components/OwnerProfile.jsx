@@ -1,17 +1,17 @@
-// import React from 'react'
+
  import  { useEffect, useState } from 'react'
-// import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/profile.css'
-import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/ownerProfile.css'
-
-
-
+import "../Styles/ownerProfile.css"
 import OwnerProducts from './Option/OwnerProducts';
 import OshopDetail from './Option/OshopDetail';
 import OdocumentDetail from './Option/OdocumentDetail';
 import Oanalytics from './Option/Oanalytics';
 import Ofeedback from './Option/Ofeedback';
 import Footer from './Option/Footer';
-// import { isUndefined } from 'util';
+
+
+
+
+
 export default function OwnerProfile() {
 
     const [activeComponents, setActiveComponents]= useState('orders')
@@ -86,8 +86,7 @@ export default function OwnerProfile() {
    useEffect(()=>{
   fetchOwnerProfileDetail()
    },[])
-  //  console.log(ownerDetail.name)
-  //  console.log(ownerDetail.length)
+  
   return (
 
 
@@ -100,12 +99,10 @@ export default function OwnerProfile() {
   <div className='col-lg-5 col-12 email fw-medium'> {ownerDetail && ownerDetail.email !==undefined  ? ownerDetail.email :""}</div>
   </div>
   <div className='edit-btn'>
-    {/* <button className=' text-white btn d-none d-sm-block  edit '>EDIT PROFILE</button>  */}
     
 
 
 
-    {/* <button className=' text-white btn  d-block d-sm-none edit '>EDIT </button> */}
 
     <button type="button" className="   text-white btn  d-block d-sm-none edit  " data-toggle="modal" data-target="#exampleModalCenter">
 EDIT
@@ -203,4 +200,5 @@ Please Enter Your Location
 )
 
   
-}
+}   
+

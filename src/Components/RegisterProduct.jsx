@@ -1,6 +1,6 @@
 import{ useState } from 'react'
 import Footer from './Option/Footer'
-import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/login.css'
+import "../Styles/login.css"
 
 export default function RegisterProduct() {
   const [productData, setProductData]= useState({name:"",category:"", description:"", price:"" , address:"", discount:"",deliveryTime:"", type:"", availability:"", flavour:"", weight:"", ingredients:"", packagingType:"", storage:"", refundPolicy:"", rating:"", email:"", mobile_number:"" , shopName:""})
@@ -142,10 +142,7 @@ export default function RegisterProduct() {
         </select>
 
         </div>
-        {/* <div className='col-6'> 
-            <label htmlFor="validationDefault02" className='form-label'>Product Category</label>
-            <input type="text" className='form-control' onChange={onClick} name="category" id="validationResult02" required/>
-        </div> */}
+      
         
         <div className='col-6  col-12 col-md-6 mt-4'>
             <label htmlFor="validationResult07" className='input-group-text'> Food Type</label>

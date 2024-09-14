@@ -9,7 +9,7 @@ export default function ShopRegister() {
 
   const onClick=(e)=>{
     setShopOwnerData({...shopOwnerData, [e.target.name]:e.target.value})
-    // console.log(shopOwnerData)
+    
 
   }
 
@@ -42,15 +42,7 @@ export default function ShopRegister() {
   }
   return (
     <>
-    {/* <Navbar/> */}
-    {/* <div  > */}
-      {/* <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"  className="img-responsive" style={{height:"400px", width:"100%"}}  alt="image"></img> */}
-      {/* <img src="https://media.istockphoto.com/id/1446060351/photo/yummy-burger-with-fries.webp?s=170667a&w=0&k=20&c=9AYoUS7cMrf2ZCBjhEyoKf8lgo4TmXc0A_l10q-Gl8g="  className="img-responsive position-relative" style={{height:"400px", width:"100%"}}  alt="image"></img> */}
-
-    {/* <h5 className=''>prasad</h5> */}
-       {/* </div> */}
-       {/* <h5 className=''>prasad</h5> */}
-       {/* <div className=''> Foodie application</div> */}
+  
        <Carousel/>
     <div className='accordion mx-auto mt-5 m' id="accordionExample">
       <div className='accordion-header d-flex justify-content-center '>

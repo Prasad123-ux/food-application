@@ -10,13 +10,12 @@ import Footer from "./Option/Footer"
 export default function Cart() {
    const [cartItem, setCartItems]= useState([])
    
-  //  const [userDetail, setUserDetail]= useState({name:"", email:"", location:"", mobile_no:""})
    const navigate= useNavigate()
   
    
 
 
-// const cartLength= cartItem.length
+
 
   const getCart=()=>{
                                                //calling a function for get userCart detail from database

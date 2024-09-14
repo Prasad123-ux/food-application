@@ -20,8 +20,7 @@ export default function Card({ name, address, price, img, id, rating, deliveryTi
     let priceOptions= Object.keys(options)
     const [size, setSize]= useState(priceOptions[0])
   const [qty, setQty]= useState()
-// const  [cart, setCart]= useState([])
-//  const [part, setPart]= useState()
+
 const [cartSave, setCartSave]= useState(true)
 const navigate=useNavigate()
 console.log(name)
@@ -30,55 +29,6 @@ console.log(price)
 console.log(rating)
 console.log(deliveryTime)
 console.log(img)
-
-
-
-
-
-//    useEffect(()=>{
-//       console.log(cart)
-
-//        }, [cart])
-
-//         console.log(id)
-
-//        const addToCart=(id)=>{
-//         const token= localStorage.getItem('token')
-//         // console.log(token)
-//         if(token===null){
-//           alert('please login first')
-//         }else{
-      
-//     //   setPart(_id)
-      
-//       const data={id,  qty, token }
-                                                                   
-//        fetch('http://localhost:5000/api/addCart', {
-        
-//          method:"POST",
-//          body:JSON.stringify(data),
-//          headers:{
-//            'Content-type':"application/json"
-//          }
-                                                 
-//        }).then((response)=>{
-//          if(response.ok){
-//            return response.json()
-//          }
-//          else{
-//            throw new Error(response.statusText)
-//          }
-                                                          
-//        }).then((data)=>{
-//           console.log(data)
-      
-//        }).catch((err)=>{
-//          console.error(err)
-      
-//        })
-                 
-//       }
-//     }            
 
 
 

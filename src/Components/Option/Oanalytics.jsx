@@ -1,5 +1,4 @@
 // import  from 'react'
-import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/Oanalytics.css'
 import "../../Styles/Oanalytics.css"
 import { LuUsers } from "react-icons/lu";
 import { IoStatsChartSharp } from "react-icons/io5";

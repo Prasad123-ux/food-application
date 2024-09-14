@@ -5,7 +5,7 @@ import { FaRupeeSign } from "react-icons/fa";
 import { FcRating } from 'react-icons/fc'
 import { FaLocationDot } from "react-icons/fa6";
 import { MdDeliveryDining } from "react-icons/md";
-// import { RiSaveLine } from "react-icons/ri";
+
 
 
 export default function Pfavourites() {

@@ -6,7 +6,7 @@ import { FcRating } from 'react-icons/fc'
 import { FaRupeeSign } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
-import 'C:/Users/metka/Desktop/foodie/frontend/food-application/src/Styles/productDetail.css'
+import "../../Styles/productDetail.css"
 import { useEffect, useState } from "react";
 import GetOrder from "./GetOrder";
 import {  useParams } from "react-router-dom";

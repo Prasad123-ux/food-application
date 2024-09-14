@@ -4,11 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Components/Screens/Home'
 import Login from './Components/Screens/Login'
 import Sign from './Components/Screens/Sign'
-// import { CartProvider } from './Components/ContextReducer'
 import Cart from './Components/Cart'
-//  import Navbar from './Components/Navbar'
 import Order from './Components/Order'
-// import ShopRegister from './Components/ShopRegister'
 import Owner from './Components/Owner'
 import Navbar from './Components/Option/Navbar'
 import ShopRegister from './Components/ShopRegister'
@@ -22,25 +19,18 @@ import Summary from './Components/Option/Summary'
 import Payments from './Components/Option/Payments'
 import Ratings from './Components/Option/Ratings'
 
-// import ShopOwner from './Components/Screens/ShopOwner'
-// import ShopOwner from './Components/Screens/ShopOwner'
-// import ScrollTop from './Components/Option/ScrollTop'
-// import { CartProvider } from './Components/ContextReducer'
-// import  CartProvider  from './Components/ContextReducer'
- 
-
 
 export default function App() {
   return (
    
    
-  //  <CartProvider>
+  
     
     <Router>
     <div>
-      {/* <ScrollTop/> */}
+      
       <Navbar/>
-      {/* <ScrollTop/> */}
+      
       <Routes>
        <Route exact path="/" element={<Home/>}/> 
        <Route exact path="/login" element={<Login/>}/> 
@@ -62,24 +52,15 @@ export default function App() {
        
 
 
-       {/* <Route exact path="/shopOwnerProfile"  element={<ShopOwner/>}/>    */}
-       {/* <Route exact path="/shopOwnerProfile" element={<ShopOwner/>} />   */}
-       
-
-       {/* <Route exact path="shopOwnerProfile" element={<ShopOwner/>}/> */}
       
-
     
  </Routes>
- {/* <ScrollTop/> */}
- {/* <GetOrder/> */}
+
  
     </div>
-    {/* <Footer/> */}
-    {/* <RegisterProduct/> */}
-    {/* <ProductDetail/> */}
+    
     </Router>
 
-    // </CartProvider>
+    
   )
 }

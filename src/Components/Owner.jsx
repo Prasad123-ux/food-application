@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Option/Footer';
 
-// import Navbar from "./Option/Navbar";
+
 
 export default function Owner() {
 
@@ -57,17 +57,15 @@ export default function Owner() {
   }, []); // Run effect only once on component mount
   return (
     <>
-    {/* <Navbar/> */}
+    
     
 
     <div className="  w-100 pb-5" style={{backgroundColor:"#f4f4f4"}}>
     <div className="bg-secondary  position-relative"  style={{height:"480px"}}>
-        {/* <ShopRegister/> */}
-        {/* <div className=" "> */}
+      
             <img src="https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp" className=" w-100 d-block  " style={{ height:"480px", width:"100%", opacity:"0.8" }} alt="image"/>
-            {/* <img src="https://b.zmtcdn.com/data/o2_assets/e3f9da3b72e25612f48611cf3926b2951629272107.png" className="d-lg-none w-100  d-md-block  position-fixed " style={{ height:"450px", width:"100%" , opacity:"0.2" }} alt="image"/> */}
 
-        {/* </div > */}
+      
         <div className=" position-absolute top-50 start-50 translate-middle w-100 row">
         <div className=" d-md-flex justify-content-around w-100 m-2 col-12  d-sm-none  d-none "> 
         <div >

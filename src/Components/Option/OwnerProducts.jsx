@@ -3,10 +3,9 @@ import { FaRupeeSign } from "react-icons/fa";
 import { FcRating } from 'react-icons/fc'
 import { FaLocationDot } from "react-icons/fa6";
 import { MdDeliveryDining } from "react-icons/md";
-// import { Navigate } from 'react-router-dom';
 import { useNavigate } from "react-router-dom"
 
-// import { RiSaveLine } from "react-icons/ri";
+
 
 export default function OwnerProducts() {
     const [ownerProduct, setOwnerProduct]= useState([])
