@@ -1,8 +1,5 @@
-// import React from 'react'
-import { FaCheck } from "react-icons/fa6";
-// import { FaArrow } from "react-icons/fa";
 
-// import { Link,  } from "react-router-dom";
+import { FaCheck } from "react-icons/fa6";
 
 import { CiDeliveryTruck } from "react-icons/ci";
 import { MdAddAlert } from "react-icons/md";
@@ -12,8 +9,7 @@ import { useParams} from "react-router-dom";
 import { useEffect} from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-// import { response } from "express";
-// import { useNavigate } from "react-router-dom";
+
 
 
 
@@ -28,12 +24,6 @@ export default function Summary() {
    const [userData, setUserData]= useState({firstName:"", lastName:"", pinCode:"", location:"", city:"", state:"", mobile_no:"", address:""})   
    const [orderPlaced, setOrderPlaced]= useState(false)           
    const { id }= useParams();  
-  //  const handleLogOut=()=>{
-  //   localStorage.removeItem('token');
-  
-  //    navigate('/login')
-     
-  //  }
 
   useEffect(()=>{
     const token= localStorage.getItem('token')

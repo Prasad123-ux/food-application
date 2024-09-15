@@ -1,6 +1,4 @@
-// import React from 'react'
-// import '../Styles/productDetail.css'
-// import { FaLocationCrosshairs } from "react-icons/fa6";
+
 import { FaLocationDot } from "react-icons/fa6";
 import { FcRating } from 'react-icons/fc'
 import { FaRupeeSign } from "react-icons/fa";
@@ -307,9 +305,7 @@ ratings.map((item, index)=>{
         
         {/* <!-- Modal footer --> */}
         <div className="modal-footer d-flex justify-content-between">
-          {/* <button type="button" className="btn btn-success" >Conform order</button> */}
           <button type="button justify-left" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#info-update-modal" data-dismiss="modal" >Update Detail </button> 
-          {/* <button type="button" className="btn btn-success" data-bs-toggle="modal"  data-bs-target="#info-update-modal">Conform order</button> */}
 
 
            <button type="button" className="btn btn-danger close" data-bs-dismiss="modal">Cancel</button> 

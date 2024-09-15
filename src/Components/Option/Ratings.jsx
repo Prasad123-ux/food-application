@@ -1,6 +1,4 @@
-// import React from 'react'
 import Footer from './Footer'
-// import StarRatingComponent from 'react-star-rating-component'
 import {Rating} from 'react-simple-star-rating';
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
@@ -83,9 +81,7 @@ const handleSubmitReview = async () =>{
   },[])
 
 
-//  console.log(productData.data)
-// console.log(productData.data.product_images.image1)
-// console.log(object)
+
 console.log(productData.length)
 console.log(review)
 

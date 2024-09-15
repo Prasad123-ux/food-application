@@ -1,7 +1,6 @@
-// import React from 'react'
+
 import { useEffect, useState } from "react"
-// import Navbar from "./Option/Navbar"
-// import Card from "./Card"
+
 import GetOrder from "./Option/GetOrder"
 
 import Footer from "./Option/Footer"
@@ -33,9 +32,9 @@ export default function Order() {
 
         }).then((data)=>{
           console.log(data.message)
-        //  console.log(data[0])
+        
             setProducts(data.message)
-            // console.log(products)
+            
 
         }).catch((err)=>{
             console.error(err)
@@ -84,8 +83,7 @@ console.log(products)
     
     
     <div className="bg-light">
-        {/* <Navbar/> */}
-        {/* <Carousel/> */}
+        
         {products && products.length > 0 ? products.map((item)=>{
             return <div key={item.id} className="row shadow bg-white m-2  border rounded-3 "   >
                 <div className="col-12 p-md-5  ps-5 pe-5 p-0 col-md-3  pt-4">
@@ -93,17 +91,15 @@ console.log(products)
                     <button className="btn" onClick={()=>{getProductDetail(item.product_id)}}>
   <img src={item.product_img} className="card-img-top" alt="..."/>
   </button>
-  {/* <div className="card-body"> */}
-    {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p> */}
-  {/* </div> */}
+  
 </div>
 
                 </div>
                 <div className="col-12 col-md-3 p-md-5  ps-5 pe-5 pt-3  ">
                     <h4>{item.product_name}</h4>
-                    {/* <h4> {item.product_Category}</h4> */}
+                    
   <div className="card-body"> 
-    {/* <p className="card-text">.</p>  */}
+    
    </div>
    <div className="d-flex justify-content-between text-gray">  <span>Quantity:{item.product_quantity}</span>  <span className="fw-bold">Final Price:  <FaRupeeSign /> {item.product_price}</span></div>
 
@@ -145,10 +141,10 @@ console.log(products)
             <h3>Recommended</h3>
             <GetOrder/>
             
-            {/* <Card/> */}
+            
         </div>
         
-{/* <Card/> */}
+
 <Footer/>
     </div>
   )
